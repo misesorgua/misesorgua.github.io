@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>misesorgua</name>
+	<creationDate>03.04.11</creationDate>
+	<author>A Martynov</author>
+	<copyright></copyright>
+	<license><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Attribution-Share Alike 3.0 Unported License</a></license>
+	<authorEmail>inbox1@amartynov.pp.ua</authorEmail>
+	<authorUrl>http://www.amartynov.pp.ua</authorUrl>
+	<version>0.0.9</version>
+	<description>
+	<![CDATA[
+			<h1 style="padding:10px;">misesorgua</h1>
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>css/template.css</filename>
+		<filename>css/ieonly.css</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>head_includes.php</filename>
+		<filename>js/csshover3.htc</filename>
+		<filename>background.png</filename>
+		<filename>backgroundie.png</filename>
+		<filename>topmenuie6.png</filename>
+	</files>
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>bottom</position>
+		<position>inset</position>
+		<position>banner</position>
+		<position>header</position>
+		<position>footer</position>
+		<position>newsflash</position>
+		<position>legals</position>
+		<position>pathway</position>
+		<position>breadcrumb</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>search</position>
+	</positions>
+</install>

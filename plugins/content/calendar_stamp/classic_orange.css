@@ -1,0 +1,49 @@
+.article-content,
+.pageinfo,
+.articleinfo{
+	clear:both;
+}
+h2.contentheading, .contentheading{
+	line-height:150%;
+}
+td.stamp{
+	width:40px;
+}
+div.datetime{
+	height:40px;
+	float:left;
+	background:url(images/classic_orange.png) no-repeat;
+	margin:5px 5px 5px 0;
+	position:relative;
+}
+
+div.datetime, div.datetime div{
+	width:36px;
+	line-height:100%;
+}
+div.month{
+	position:absolute;
+	top:4px;
+	font-size:8px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	color:#ffffff;
+	text-indent:3px;
+}
+
+div.day{
+	position:absolute;
+	top:15px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center !important;
+
+}
+
+div.year{
+	position:absolute;
+	bottom:3px;
+	font-size:7px;
+	color: #f5b26f;
+	text-align:center !important;
+}

@@ -1,0 +1,47 @@
+.article-content,
+.pageinfo,
+.articleinfo{
+	clear:both;
+}
+h2.contentheading, .contentheading{
+	line-height:150%;
+}
+td.stamp{
+	width:49px;
+}
+div.datetime {
+	height:49px;
+	float:left;
+	background:url(images/simple_green_light.png) no-repeat;
+	margin:5px 5px 5px 0;
+	position:relative;
+}
+div.datetime, div.datetime div {
+	width:42px;
+	padding-right:5px;
+	line-height:100%;
+}
+div.day {
+	position:absolute;
+	top:20px;
+	font-size:18px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center !important;
+	color:#999;
+}
+div.month {
+	position:absolute;
+	top:2px;
+	font-size:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	color:#ffffff;
+	text-align:center !important;
+}
+div.year {
+	position:absolute;
+	bottom:3px;
+	font-size:7px;
+	color: #333;
+	text-align:center !important;
+}

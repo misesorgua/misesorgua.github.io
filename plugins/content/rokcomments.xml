@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - RokComments</name>
+	<author>RocketTheme</author>
+	<creationDate>April 2008</creationDate>
+	<copyright>Copyright (C) 2008 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>www.rockettheme.com</authorUrl>
+	<version>1.0</version>
+	<description>Plugin to insert JS-Based comments at the end of an article. RokComments supports IntenseDebate and Disqus</description>
+	<files>
+		<filename plugin="rokcomments">rokcomments.php</filename>
+		<folder>rokcomments</folder>
+	</files>
+	<params addpath="/plugins/content/rokcomments/elements">
+	    <param name="system" type="list" default="1" label="Comment System" description="Select the Comment System you would like to use and enter the details in the appopriate paramaters grouping">
+          <option value="intensedebate">IntenseDebate</option>
+          <option value="disqus">Disqus</option>
+          <option value="jskit">JS-Kit</option>
+        </param>
+        <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:11px;color:#000;padding:8px;margin:0;background:#ffd;&quot;&gt;'Search Engine Friendly URLs' must be enabled in the Global Configuration for ALL of these comment systems to function properly. It's a good idea for SEO anyway, so just turn it on!&lt;/div&gt;" label="" description="" />
+        <param name="showcount" type="radio" default="1" label="Show Comment Count" description="Enable comment count if supported by the Comment System">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </param>
+        <param name="showicon" type="radio" default="rk-icon" label="Show Comment Icon" description="Enable comment icon if count is shown">
+          <option value="rk-none">No</option>
+          <option value="rk-icon">Yes</option>
+        </param>
+        <param name="tagmode" type="list" default="0" label="Tagging mode" description="Advanced feature - Leave as default unless you run into uniqueness problems as it makes it easier to move your comments later if needed">
+          <option value="0">Basic (alias)</option>
+          <option value="1">Advanced (id:alias)</option>
+        </param>
+	    <param name="method" type="list" default="id" label="Activation Method" description="You can Activate comments by Code {rokcomments}, by Menus + Categories">
+          <option value="code">Code</option>
+          <option value="id">Menus + Categories</option>
+        </param>
+        <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0 0 0 -85px;background:#666;&quot;&gt;Menus + Categories Selections&lt;/div&gt;" label="" description="" />
+        <param name="menus" type="menus" default="" label="Select Menus" description="" />
+        <param name="categories" type="categories" default="" label="Select Categories" description="" />
+        <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0 0 0 -85px;background:#666;&quot;&gt;IntenseDebate&lt;/div&gt;" label="" description="" />
+        
+		<param name="id-account" type="text" size="50" default="" label="IntenseDebate Account" description="" />
+        <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0 0 0 -85px;background:#666;&quot;&gt;Disqus&lt;/div&gt;" label="" description="" />
+	    <param name="d-subdomain" type="text" size="50" default="" label="Disqus Subdomain" description="Set the subdomain to what you registered with Disqus, sometimes referred to as the 'short name' (without '.disqus.com')." />
+	    <param name="d-devmode" type="radio" default="0" label="Developer Mode" description="Enable this if you are testing behind a firewall or proxy, and not yet on your live site.">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </param>
+        <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0 0 0 -85px;background:#666;&quot;&gt;JS-Kit&lt;/div&gt;" label="" description="" />
+	    <param name="js-domain" type="text" size="50" default="" label="JS-Kit Domain" description="Set the domain to what you registered with JS-lot (eg www.yoursite.com)." />
+	</params>
+</install>

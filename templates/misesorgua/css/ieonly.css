@@ -1,0 +1,58 @@
+*html{
+	filter: expression(runtimeStyle.filter = '',document.execCommand('BackgroundImageCache', false, true));
+}
+*html body{
+   behavior:url("../templates/misesorgua/js/csshover3.htc");
+}
+*html a#ua,
+*html a#ru,
+*html a#en,
+*html #tommenu,
+*html #mod_search_searchword,
+*html #tommenu .button,
+*html #user3 a:hover,
+*html #user3 a#active_menu-nav,
+*html #user3 li#current a,
+*html a.jwDisqusListingCounterLink,
+*html a.jwDisqusListingCounterLink:hover,
+*html a.readon,
+*html a.readon:hover,
+*html #kornienkologo,
+*html #kornienkologoeng{
+	background-image:url(../images/backgroundie.png);
+}
+*html #user3 li{
+	z-index: expression( /* оптимизированный expression, который сработает только при загрузке страницы */
+	runtimeStyle.zIndex = 1,
+	this == parentNode.firstChild ? (className += " first-child") : 0 /* добавляем нужный класс первому элементу */
+	)
+}
+*html #user3 a,
+*html #user3 li.first-child a{
+	background:url(../images/topmenuie6.png) no-repeat 100% 0;
+}
+*html #user3 li.first-child a#active_menu-nav,
+*html #user3 li#current.first-child a{
+	background-position:100% -241px;
+}
+*html #user3 li.first-child a#active_menu-nav:hover,
+*html #user3 li#current.first-child a:hover,
+*html #user3 li.first-child a:hover{
+	background-position:100% -204px;
+}
+*html #footer p,
+*html #kornienkologo,*html #kornienkologoeng{
+	margin:0 0 20px 71px;
+}
+*html #component{
+	height:auto !important;
+	height:550px;
+}
+*html #component table.contentpaneopen{
+	width:auto;
+}
+span.dsq-like button,
+span.dsq-comment-footer-reply button,
+button#dsq-post-button.dsq-button{
+	border:0;
+}

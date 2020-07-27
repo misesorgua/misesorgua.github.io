@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+ <name>Content - Calendar Stamp</name>
+ <author>Ahmad Alfy</author>
+ <creationDate>13 October 2009</creationDate>
+ <copyright>Non-Commercial</copyright>
+ <license>GNU/GPL</license>
+ <authorEmail>ahmadalfy@gmail.com</authorEmail>
+ <authorUrl>www.alfystudio.com</authorUrl>
+ <version>1.5</version>
+ <description>Use Calendar Stamp to display the article's date beside the title.</description>
+ <files>
+  <filename plugin="calendar_stamp">calendar_stamp.php</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_black.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_blue_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_blue_warm.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_blue_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_brown.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_green_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_green_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_grey.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_orange.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_red_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_red_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_turquoise.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/classic_yellow.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_black.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_blue_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_blue_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_green_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_green_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_grey.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_red.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/simple_yellow.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_black.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_blue.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_brown.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_green_dark.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_green_light.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_grey.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_orange.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_purple.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_red.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_rose.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_sky.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/thin_yellow.css</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_black.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_blue_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_blue_warm.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_blue_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_brown.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_green_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_green_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_grey.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_orange.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_red_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_red_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_turquoise.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/classic_yellow.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_black.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_blue_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_blue_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_green_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_green_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_grey.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_red.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/simple_yellow.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_black.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_blue.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_brown.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_green_dark.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_green_light.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_grey.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_orange.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_purple.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_red.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_rose.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_sky.png</filename>
+  <filename plugin="calendar_stamp">calendar_stamp/images/thin_yellow.png</filename>
+ </files>
+ <languages>
+  <language tag="en-GB">en-GB.plg_content_calendar_stamp.ini</language>
+ </languages>
+ <params>
+  <param name="style" type="list" default="classic_black.css" label="PARAM_STYLE" description="PARAM_STYLE_DESCR">
+   <option value="classic_black.css">Classic Black</option>
+   <option value="classic_blue_light.css">Classic Blue (light)</option>
+   <option value="classic_blue_warm.css">Classic Blue (warm)</option>
+   <option value="classic_blue_dark.css">Classic Blue (dark)</option>
+   <option value="classic_brown.css">Classic Brown</option>
+   <option value="classic_green_light.css">Classic Green (light)</option>
+   <option value="classic_green_dark.css">Classic Green (dark)</option>
+   <option value="classic_grey.css">Classic Grey</option>
+   <option value="classic_orange.css">Classic Orange</option>
+   <option value="classic_red_light.css">Classic Red (light)</option>
+   <option value="classic_red_dark.css">Classic Red (dark)</option>
+   <option value="classic_turquoise.css">Classic Turquoise</option>
+   <option value="classic_yellow.css">Classic Yellow</option>
+   <option value="simple_black.css">Simple Black</option>
+   <option value="simple_blue_light.css">Simple Blue (light)</option>
+   <option value="simple_blue_dark.css">Simple Blue (dark)</option>
+   <option value="simple_green_light.css">Simple Green (light)</option>
+   <option value="simple_green_dark.css">Simple Green (dark)</option>
+   <option value="simple_grey.css">Simple Grey</option>
+   <option value="simple_red.css">Simple Red</option>
+   <option value="simple_yellow.css">Simple Yellow</option>
+   <option value="thin_black.css">Thin Black</option>
+   <option value="thin_blue.css">Thin Blue</option>
+   <option value="thin_brown.css">Thin Brown</option>
+   <option value="thin_green_dark.css">Thin Green (Dark)</option>
+   <option value="thin_green_light.css">Thin Green (Light)</option>
+   <option value="thin_grey.css">Thin Grey</option>
+   <option value="thin_orange.css">Thin Orange</option>
+   <option value="thin_purple.css">Thin Purple</option>
+   <option value="thin_red.css">Thin Red</option>
+   <option value="thin_rose.css">Thin Rose</option>
+   <option value="thin_sky.css">Thin Sky</option>
+   <option value="thin_yellow.css">Thin Yellow</option>
+   <option value="user_style">User style</option>
+  </param>
+  <param name="style_user" type="textarea" rows="8" cols="35" default="/* table */ td.stamp {} /* background */ div.datetime{} /* height */ div.datetime, div.datetime div {} /* day */ div.day {} /* month */div.month {} /* year */div.year {}" label="PARAM_STYLE_USER" description="PARAM_STYLE_USER_DESCR" />
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="layout" type="radio" default="table" label="PARAM_LAYOUT" description="PARAM_LAYOUT_DESCR">
+   <option value="table">Table</option>
+   <option value="css">CSS</option>
+  </param>
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="show_day" type="radio" default="1" label="PARAM_DAY" description="PARAM_DAY_DESCR">
+   <option value="1">SHOW</option>
+   <option value="0">HIDE</option>
+  </param>
+  <param name="show_month" type="radio" default="1" label="PARAM_MONTH" description="PARAM_MONTH_DESCR">
+   <option value="1">SHOW</option>
+   <option value="0">HIDE</option>
+  </param>
+  <param name="show_year" type="radio" default="0" label="PARAM_YEAR" description="PARAM_YEAR_DESCR">
+   <option value="1">SHOW</option>
+   <option value="0">HIDE</option>
+  </param>
+  <param name="month_format" type="list" default="LETTERS" label="PARAM_MONTH_FORMAT" description="PARAM_MONTH_FORMAT_DESC">
+   <option value="LETTERS">Letters (Jan,Feb,Mar...)</option>
+   <option value="NUMBERS">Numbers (01,02,03...)</option>
+  </param>
+  <param name="month_lenght" type="list" default="SHORT" label="PARAM_MONTH_LENGHT" description="PARAM_MONTH_LENGHT_DESC">
+   <option value="0">VALUE_MONTH_LENGHT_SHORT</option>
+   <option value="1">VALUE_MONTH_LENGHT_FULL</option>
+  </param>
+  <param name="year_format" type="list" default="YEAR_FORMAT_4" label="PARAM_YEAR_FORMAT" description="PARAM_YEAR_FORMAT_DESC">
+   <option value="YEAR_FORMAT_4">4 Digits (2009)</option>
+   <option value="YEAR_FORMAT_2">2 Digits (09)</option>
+  </param>
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="displaying" type="list" default="1" label="PARAM_DISPLAYING" description="PARAM_DISPLAYING_DESCR">
+   <option value="0">FRONTPAGE</option>
+   <option value="1">FRONTPAGE_ART</option>
+   <option value="3">JUSTARTICLE</option>
+   <option value="4">ARTICLEBLOG</option>
+   <option value="2">EVERYWHERE</option>
+  </param>
+  <param name="showing" type="list" default="0" label="PARAM_WHATSHOW" description="PARAM_WHATSHOW_DESCR">
+   <option value="0">DATE_CREATION</option>
+   <option value="1">DATE_UPDATE</option>
+  </param>
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="sections" type="text" size="20" default="" label="PARAM_SECTIONS" description="PARAM_SECTIONS_DESCR"/>
+  <param name="categories" type="text" size="20" default="" label="PARAM_CATEGORIES" description="PARAM_CATEGORIES_DESCR"/>
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="articles" type="text" size="20" default="" label="PARAM_ARTICLES" description="PARAM_ARTICLES_DESCR"/>
+  <param name="@spacer" type="spacer" default="" label="" description="" />
+  <param name="original_date" type="radio" default="0" label="PARAM_ORIGINAL_DATE" description="PARAM_ORIGINAL_DATE_DESCR">
+   <option value="1">SHOW</option>
+   <option value="0">HIDE</option>
+  </param>
+ </params>
+</install>
