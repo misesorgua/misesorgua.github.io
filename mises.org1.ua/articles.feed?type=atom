@@ -3,14 +3,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
 	<title type="text">Статті | Австрійська економічна школа українською</title>
 	<subtitle type="text"></subtitle>
-	<link rel="alternate" type="text/html" href="http://www.mises.org.ua"/>
+	<link rel="alternate" type="text/html" href=""/>
 	<id>http://www.mises.org.ua/articles.feed</id>
 	<updated>2016-10-14T13:37:11Z</updated>
 	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
-<link rel="self" type="application/atom+xml" href="http://www.mises.org.ua/articles.feed?type=atom" />
+<link rel="self" type="application/atom+xml" href="/articles.feed?type=atom" />
 	<entry>
 		<title>Перекладені статті</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/52-alexmartynov/53-index-of-translated-articles.html"/>
+		<link rel="alternate" type="text/html" href="/articles/52-alexmartynov/53-index-of-translated-articles.html"/>
 		<published>2020-11-08T07:48:48Z</published>
 		<updated>2020-11-08T07:48:48Z</updated>
 		<id>http://www.mises.org.ua/articles/52-alexmartynov/53-index-of-translated-articles.html</id>
@@ -73,7 +73,7 @@
 	</entry>
 	<entry>
 		<title>Форма Генерального договору оренди, що пропонується для клану Сомалійського Вільного Порту</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/52-alexmartynov/352-a-proposed-master-lease-form-for-a-somali-freeport-clan.html"/>
+		<link rel="alternate" type="text/html" href="/articles/52-alexmartynov/352-a-proposed-master-lease-form-for-a-somali-freeport-clan.html"/>
 		<published>2015-11-30T17:23:27Z</published>
 		<updated>2015-11-30T17:23:27Z</updated>
 		<id>http://www.mises.org.ua/articles/52-alexmartynov/352-a-proposed-master-lease-form-for-a-somali-freeport-clan.html</id>
@@ -90,7 +90,7 @@
 	</entry>
 	<entry>
 		<title>Як уряд Італії сприяє існуванню мафії</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/98-david-howden/334-how-italys-government-enables-mafia.html"/>
+		<link rel="alternate" type="text/html" href="/articles/98-david-howden/334-how-italys-government-enables-mafia.html"/>
 		<published>2015-04-10T18:20:20Z</published>
 		<updated>2015-04-10T18:20:20Z</updated>
 		<id>http://www.mises.org.ua/articles/98-david-howden/334-how-italys-government-enables-mafia.html</id>
@@ -107,7 +107,7 @@
 	</entry>
 	<entry>
 		<title>Як це працюватиме без Держави?</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/90-hristopher-antwell/314-how-would-x-work-in-a-free-society.html"/>
+		<link rel="alternate" type="text/html" href="/articles/90-hristopher-antwell/314-how-would-x-work-in-a-free-society.html"/>
 		<published>2014-08-13T11:55:21Z</published>
 		<updated>2014-08-13T11:55:21Z</updated>
 		<id>http://www.mises.org.ua/articles/90-hristopher-antwell/314-how-would-x-work-in-a-free-society.html</id>
@@ -136,7 +136,7 @@
 	</entry>
 	<entry>
 		<title>Для розуміння економіки не потрібно ніяких «ірраціональних начал»</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/87-per-bylund/307-how-can-we-unleash-positive-animal-spirits-into-the-economy-change-the-narrative.html"/>
+		<link rel="alternate" type="text/html" href="/articles/87-per-bylund/307-how-can-we-unleash-positive-animal-spirits-into-the-economy-change-the-narrative.html"/>
 		<published>2014-04-21T09:44:10Z</published>
 		<updated>2014-04-21T09:44:10Z</updated>
 		<id>http://www.mises.org.ua/articles/87-per-bylund/307-how-can-we-unleash-positive-animal-spirits-into-the-economy-change-the-narrative.html</id>
@@ -161,7 +161,7 @@
 	</entry>
 	<entry>
 		<title>Переклад книги &quot;Beyond Democracy&quot;. Вступ.</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/82-frank-karsten/303-beyond-democracy.html"/>
+		<link rel="alternate" type="text/html" href="/articles/82-frank-karsten/303-beyond-democracy.html"/>
 		<published>2013-04-16T15:22:55Z</published>
 		<updated>2013-04-16T15:22:55Z</updated>
 		<id>http://www.mises.org.ua/articles/82-frank-karsten/303-beyond-democracy.html</id>
@@ -216,7 +216,7 @@
 	</entry>
 	<entry>
 		<title>Чи може девальвація допомогти країні стати більш конкурентоспроможною</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/83-patrick-barron/301-can-devaluation-help-a-country-become-more-competitive.html"/>
+		<link rel="alternate" type="text/html" href="/articles/83-patrick-barron/301-can-devaluation-help-a-country-become-more-competitive.html"/>
 		<published>2013-02-10T10:32:40Z</published>
 		<updated>2013-02-10T10:32:40Z</updated>
 		<id>http://www.mises.org.ua/articles/83-patrick-barron/301-can-devaluation-help-a-country-become-more-competitive.html</id>
@@ -275,7 +275,7 @@ href=&quot;http://www.policyexchange.org.uk/images/WolfsonPrize/wep%20shortlist%
 	</entry>
 	<entry>
 		<title>Два бачення Європи </title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/70-philipp-bagus/287-two-visions-of-europe.html"/>
+		<link rel="alternate" type="text/html" href="/articles/70-philipp-bagus/287-two-visions-of-europe.html"/>
 		<published>2012-08-21T14:05:57Z</published>
 		<updated>2012-08-21T14:05:57Z</updated>
 		<id>http://www.mises.org.ua/articles/70-philipp-bagus/287-two-visions-of-europe.html</id>
@@ -292,7 +292,7 @@ href=&quot;http://www.policyexchange.org.uk/images/WolfsonPrize/wep%20shortlist%
 	</entry>
 	<entry>
 		<title>Екологічний рух і свобода: аргументи на захист приватної власності</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/61-walter-block/285-environmentalism-and-economic-freedom.html"/>
+		<link rel="alternate" type="text/html" href="/articles/61-walter-block/285-environmentalism-and-economic-freedom.html"/>
 		<published>2012-05-27T14:00:45Z</published>
 		<updated>2012-05-27T14:00:45Z</updated>
 		<id>http://www.mises.org.ua/articles/61-walter-block/285-environmentalism-and-economic-freedom.html</id>
@@ -361,7 +361,7 @@ title=&quot;&quot;&gt;&lt;sup&gt;[2]&lt;/sup&gt;&lt;/a&gt;,
 	</entry>
 	<entry>
 		<title>Про  власність і експлуатацію</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/articles/61-walter-block/279-on-property-and-expoitation.html"/>
+		<link rel="alternate" type="text/html" href="/articles/61-walter-block/279-on-property-and-expoitation.html"/>
 		<published>2012-01-05T14:00:00Z</published>
 		<updated>2012-01-05T14:00:00Z</updated>
 		<id>http://www.mises.org.ua/articles/61-walter-block/279-on-property-and-expoitation.html</id>

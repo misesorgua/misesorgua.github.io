@@ -3,14 +3,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
 	<title type="text">Австрийская экономическая школа на украинском</title>
 	<subtitle type="text"></subtitle>
-	<link rel="alternate" type="text/html" href="http://www.mises.org.ua"/>
+	<link rel="alternate" type="text/html" href=""/>
 	<id>http://www.mises.org.ua/main-rus.feed</id>
 	<updated>2016-10-14T13:37:05Z</updated>
 	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
-<link rel="self" type="application/atom+xml" href="http://www.mises.org.ua/main-rus.feed?type=atom" />
+<link rel="self" type="application/atom+xml" href="/main-rus.feed?type=atom" />
 	<entry>
 		<title>Как жители Тебриза сказали хану: «Довольно!»</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/361-withholding-consent-from-the-khan.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/361-withholding-consent-from-the-khan.html"/>
 		<published>2016-02-01T19:30:48Z</published>
 		<updated>2016-02-01T19:30:48Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/361-withholding-consent-from-the-khan.html</id>
@@ -31,7 +31,7 @@
 	</entry>
 	<entry>
 		<title>Отчет Министерства финансов США: дефицит федерального бюджета составил $603 000 на одно домохозяйство  </title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/359-treasury-report.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/359-treasury-report.html"/>
 		<published>2016-01-31T06:16:07Z</published>
 		<updated>2016-01-31T06:16:07Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/359-treasury-report.html</id>
@@ -48,7 +48,7 @@
 	</entry>
 	<entry>
 		<title>Девятнадцать игнорируемых последствий перераспределения доходов</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/357-nineteen-neglected-consequences-of-income-redistribution.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/357-nineteen-neglected-consequences-of-income-redistribution.html"/>
 		<published>2015-12-30T20:13:07Z</published>
 		<updated>2015-12-30T20:13:07Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/357-nineteen-neglected-consequences-of-income-redistribution.html</id>
@@ -65,7 +65,7 @@
 	</entry>
 	<entry>
 		<title>Этика и экономика частной собственности</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/355-the-economics-and-ethics-of-private-property.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/355-the-economics-and-ethics-of-private-property.html"/>
 		<published>2015-12-14T18:22:38Z</published>
 		<updated>2015-12-14T18:22:38Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/355-the-economics-and-ethics-of-private-property.html</id>
@@ -82,7 +82,7 @@
 	</entry>
 	<entry>
 		<title>5 мифов, из-за которых капитализм кажется непривлекательным</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/351-5-myths-used-to-make-capitalism-seem-uncool.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/351-5-myths-used-to-make-capitalism-seem-uncool.html"/>
 		<published>2015-11-05T05:25:50Z</published>
 		<updated>2015-11-05T05:25:50Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/351-5-myths-used-to-make-capitalism-seem-uncool.html</id>
@@ -103,7 +103,7 @@
 	</entry>
 	<entry>
 		<title>Культура насилия на американском Западе: мифы и реальность</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/349-the-culture-of-violence-in-the-american-west-myth-versus-reality.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/349-the-culture-of-violence-in-the-american-west-myth-versus-reality.html"/>
 		<published>2015-10-20T17:38:35Z</published>
 		<updated>2015-10-20T17:38:35Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/349-the-culture-of-violence-in-the-american-west-myth-versus-reality.html</id>
@@ -138,7 +138,7 @@
 	</entry>
 	<entry>
 		<title>Война, прибыль и государство</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/347-war-profit-and-the-state.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/347-war-profit-and-the-state.html"/>
 		<published>2015-09-26T08:28:06Z</published>
 		<updated>2015-09-26T08:28:06Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/347-war-profit-and-the-state.html</id>
@@ -161,7 +161,7 @@
 	</entry>
 	<entry>
 		<title>Инфляция, центральные банки и экономические циклы</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/345-inflation-central-banks-and-business-cycles.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/345-inflation-central-banks-and-business-cycles.html"/>
 		<published>2015-08-30T19:51:17Z</published>
 		<updated>2015-08-30T19:51:17Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/345-inflation-central-banks-and-business-cycles.html</id>
@@ -190,7 +190,7 @@
 	</entry>
 	<entry>
 		<title>Чем плох либертарный активизм</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/343-the-trouble-with-libertarian-activism.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/343-the-trouble-with-libertarian-activism.html"/>
 		<published>2015-06-04T04:04:00Z</published>
 		<updated>2015-06-04T04:04:00Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/343-the-trouble-with-libertarian-activism.html</id>
@@ -207,7 +207,7 @@
 	</entry>
 	<entry>
 		<title>Открытое письмо этатистам</title>
-		<link rel="alternate" type="text/html" href="http://www.mises.org.ua/main-rus/41-alex-martynov-rus/341-an-open-letter-to-statists-everywhere.html"/>
+		<link rel="alternate" type="text/html" href="/main-rus/41-alex-martynov-rus/341-an-open-letter-to-statists-everywhere.html"/>
 		<published>2015-05-31T08:18:31Z</published>
 		<updated>2015-05-31T08:18:31Z</updated>
 		<id>http://www.mises.org.ua/main-rus/41-alex-martynov-rus/341-an-open-letter-to-statists-everywhere.html</id>
